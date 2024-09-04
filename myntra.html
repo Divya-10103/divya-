@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Homepage Replica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo img {
+            max-height: 40px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline-block;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .nav-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('your-hero-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            position: relative;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin: 0 0 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 0 0 20px;
+        }
+
+        .hero .shop-now-btn {
+            background-color: #ff3e6c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        /* Banner Section */
+        .banner {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #d32f2f;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Promotions */
+        .promotions {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .promo-item {
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .promo-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .promo-item a {
+            display: block;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-links li a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Special Features */
+        .features {
+            background-color: #b71c1c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .features div {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .features img {
+            vertical-align: middle;
+            margin-right: 10px;
+            max-height: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="your-logo-url.png" alt="Myntra Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Home & Living</a></li>
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Studio</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#">Profile</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Bag</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        FLAT ₹400 OFF On Your 1st Purchase Via Myntra App!
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('your-banner-image-url.jpg');">
+        <div class="hero-content">
+            <h2>50-80% OFF</h2>
+            <p>Big Deals For A Style Upgrade</p>
+            <a href="#" class="shop-now-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Special Features -->
+    <section class="features">
+        <div><img src="original-products-icon.png" alt="Original Products">100% ORIGINAL PRODUCTS</div>
+        <div><img src="returns-refunds-icon.png" alt="Easy Returns & Refunds">EASY RETURNS & REFUNDS</div>
+        <div><img src="secure-payments-icon.png" alt="Secure Payments">100% SECURE PAYMENTS</div>
+    </section>
+
+    <!-- Promotions -->
+    <section class="promotions">
+        <div class="promo-item">
+            <img src="men-fashion.jpg" alt="Men's Fashion">
+            <a href="#">HIM</a>
+        </div>
+        <div class="promo-item">
+            <img src="women-fashion.jpg" alt="Women's Fashion">
+            <a href="#">HER</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Myntra. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
